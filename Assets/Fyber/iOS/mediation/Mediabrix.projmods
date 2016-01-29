@@ -1,0 +1,56 @@
+{
+  "version": "1.7.5-r2",
+  "group": "Mediation/Mediabrix",
+  "patches": [],
+  "libs": [    
+    "Fyber/iOS/mediation/Mediabrix/Fyber_Mediabrix_1.7.5-r2.embeddedframework/Fyber_Mediabrix_1.7.5-r2.framework:<group>",
+    "libsqlite3.dylib",
+    "libxml2.dylib",
+    "libz.dylib",
+    "libiconv.dylib"
+  ],
+  "librarysearchpaths": [],
+  "frameworks": [
+    "Accounts.framework:weak",
+    "AdSupport.framework:weak",
+    "AudioToolbox.framework",
+    "AVFoundation.framework",
+    "CoreGraphics.framework",
+    "CoreLocation.framework",
+    "CoreTelephony.framework",
+    "EventKit.framework",
+    "MediaPlayer.framework",
+    "MobileCoreServices.framework",
+    "Social.framework:weak",
+    "StoreKit.framework:weak",
+    "QuartzCore.framework"
+  ],
+  "frameworksearchpaths": [
+    "Fyber/iOS/mediation/Mediabrix/Fyber_Mediabrix_1.7.5-r2.embeddedframework/"
+   ],
+  "headerpaths": [],
+  "files": [],
+  "folders": [
+    "Fyber/iOS/mediation/Mediabrix/Fyber_Mediabrix_1.7.5-r2.embeddedframework/Resources"
+  ],	
+  "excludes": [],
+  "linkers": [],
+  "plist":[
+    "<plist>
+      <key>name</key>
+      <string>Mediabrix</string>
+      <key>settings</key>
+      <dict>
+        <!-- Uncomment this section if you want to override the server side configuration properties
+        <key>SPMediabrixAppId</key>
+        <string></string>
+        <key>SPMediabrixBaseURL</key>
+        <string></string>
+        <key>SPMediabrixProperty</key>
+        <string></string>
+        <key>SPMediabrixRescueZone</key>
+        <string></string>
+        -->
+      </dict>
+    </plist>"]
+}
